@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SantaCasa.unity
+- path: Assets/santacasa_demonio.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
