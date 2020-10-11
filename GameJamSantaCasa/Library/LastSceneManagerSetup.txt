@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/tela3.unity
+=======
+- path: Assets/Scenes/CANVAS.unity
+>>>>>>> d59c58da0a73e84b36fe0a90a1630c819ecb9a68
   isLoaded: 1
   isActive: 1
   isSubScene: 0
