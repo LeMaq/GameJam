@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{f24b2222-f115-45b2-bcdc-efa6140b3fed}">
+		<property name="assetPath">
+			<value>Pegadas criança_8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55970833333333336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55f13c73-feb8-4e54-a233-309851ade244}</destination>
+		</relationship>
+	</object>
+</objects>
