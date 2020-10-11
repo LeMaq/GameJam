@@ -15,7 +15,7 @@ public class TopDownMovementScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 0.05f;
+        //speed = 0.05f;
     }
 
     // Update is called once per frame
@@ -58,6 +58,7 @@ public class TopDownMovementScript : MonoBehaviour
                 speed = 0.05f;
             }
             transform.Translate(Vector2.down * speed, Space.World);
+
             down = true;
         }
         else if (Input.GetKey(KeyCode.S) == false)
