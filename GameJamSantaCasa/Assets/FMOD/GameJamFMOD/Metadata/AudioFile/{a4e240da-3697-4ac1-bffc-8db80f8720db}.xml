@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a4e240da-3697-4ac1-bffc-8db80f8720db}">
+		<property name="assetPath">
+			<value>Pilha.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.4949659863945578</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55f13c73-feb8-4e54-a233-309851ade244}</destination>
+		</relationship>
+	</object>
+</objects>
