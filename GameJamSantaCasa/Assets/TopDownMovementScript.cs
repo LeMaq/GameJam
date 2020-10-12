@@ -6,7 +6,7 @@ public class TopDownMovementScript : MonoBehaviour
 {
 
     public GameObject mover;
-    public float speed = 0.05f;
+    public float speed;
     public GameObject Player;
     public bool left;
     public bool right;
@@ -43,10 +43,10 @@ public class TopDownMovementScript : MonoBehaviour
         {
             animator.SetInteger("Directions", 1);
 
-            if (!up && right && !left && !down)
-            {
-                speed = 0.05f;
-            }
+            //if (!up && right && !left && !down)
+            //{
+            //    speed = 0.05f;
+            //}
             transform.Translate(Vector2.right * speed, Space.World);
             right = true;
         }
@@ -59,10 +59,10 @@ public class TopDownMovementScript : MonoBehaviour
         {
             animator.SetInteger("Directions", 3);
 
-            if (!up && !right && left && !down)
-            {
-                speed = 0.05f;
-            }
+            //if (!up && !right && left && !down)
+            //{
+            //    speed = 0.05f;
+            //}
             transform.Translate(Vector2.left * speed, Space.World);
             left = true;
         }
@@ -76,10 +76,10 @@ public class TopDownMovementScript : MonoBehaviour
             animator.SetInteger("Directions", 2);
 
 
-            if (!up && !right && !left && down)
-            {
-                speed = 0.05f;
-            }
+            //if (!up && !right && !left && down)
+            //{
+            //    speed = 0.05f;
+            //}
             transform.Translate(Vector2.down * speed, Space.World);
 
             down = true;
@@ -94,10 +94,10 @@ public class TopDownMovementScript : MonoBehaviour
 
             animator.SetInteger("Directions", 4);
 
-            if (up && !right && !left && !down)
-            {
-                speed = 0.05f;
-            }
+            //if (up && !right && !left && !down)
+            //{
+            //    speed = 0.05f;
+            //}
             transform.Translate(Vector2.up * speed, Space.World);
             up = true;
         }
@@ -105,30 +105,30 @@ public class TopDownMovementScript : MonoBehaviour
         {
             up = false;
         }
-        if (up && right && !left && !down)
-        {
-            speed = 0.025f;
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 45)));
-        }
-        if (right && down && !up && !left)
-        {
-            speed = 0.025f;
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 315)));
+        //if (up && right && !left && !down)
+        //{
+        //    speed = 0.025f;
+        //    //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 45)));
+        //}
+        //if (right && down && !up && !left)
+        //{
+        //    speed = 0.025f;
+        //    //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 315)));
 
-        }
-        if (down && left && !right && !up)
-        {
-            speed = 0.025f;
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 225)));
-            Debug.LogWarning("vai");
+        //}
+        //if (down && left && !right && !up)
+        //{
+        //    speed = 0.025f;
+        //    //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 225)));
+        //    Debug.LogWarning("vai");
 
-        }
-        if (left && up && !right && !down)
-        {
-            speed = 0.025f;
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 135)));
+        //}
+        //if (left && up && !right && !down)
+        //{
+        //    speed = 0.025f;
+        //    //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 135)));
 
-        }
+        //}
 
 
         
