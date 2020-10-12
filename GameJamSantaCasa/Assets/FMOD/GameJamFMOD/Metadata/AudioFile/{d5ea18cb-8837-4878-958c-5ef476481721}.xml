@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d5ea18cb-8837-4878-958c-5ef476481721}">
+		<property name="assetPath">
+			<value>GhostCadu_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.5081875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55f13c73-feb8-4e54-a233-309851ade244}</destination>
+		</relationship>
+	</object>
+</objects>
