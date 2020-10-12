@@ -1,24 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8865276736657636512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Player.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Player.bank
-  SubDir: 
-  lastModified: 637380166292265022
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-8129310978660990450
+--- !u!114 &-6871947673088948809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,29 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637380241335354369
+  lastModified: 637380166291704063
   LoadResult: 0
   FileSizes: []
-  Exists: 0
---- !u!114 &-7606689326914981627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Player.bank
-  m_EditorClassIdentifier: 
-  Path: ../../GameJamFMOD/Build/Desktop/Player.bank
-  SubDir: 
-  lastModified: 637380166292265022
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &-5664295053343878201
+  Exists: 1
+--- !u!114 &-6319923635572402617
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -69,11 +33,7 @@ MonoBehaviour:
   Path: event:/ChildFootsteps
   guid: 107180b6d569324e89ce76d3ec012def
   Banks:
-<<<<<<< HEAD
-  - {fileID: -5470194963171471624}
-=======
-  - {fileID: 6765020291084987189}
->>>>>>> main
+  - {fileID: 8347545594880227466}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -81,405 +41,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 539
---- !u!114 &-5470194963171471624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Child.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Child.bank
-  SubDir: 
-  lastModified: 637380166282170263
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-5396793151294062499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Flashlight
-  m_EditorClassIdentifier: 
-  Path: event:/Flashlight
-  guid: ce9d00965f0fb5458eb0c76a3113ac01
-  Banks:
-<<<<<<< HEAD
-  - {fileID: -8865276736657636512}
-=======
-  - {fileID: 7259701550451264763}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 718
---- !u!114 &-5287429593713041035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Level.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Level.bank
-  SubDir: 
-  lastModified: 637380456742091211
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &-4473388312499813223
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/FootSteps
-  m_EditorClassIdentifier: 
-  Path: event:/FootSteps
-  guid: 37654d743efc2b4fac93cc9a60ccc0b7
-  Banks:
-<<<<<<< HEAD
-  - {fileID: -8865276736657636512}
-=======
-  - {fileID: 7259701550451264763}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 484
---- !u!114 &-3017254382935917650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/DoorLocked
-  m_EditorClassIdentifier: 
-  Path: event:/DoorLocked
-  guid: 8be6b884ea2cf846b3452cba43cee0d9
-  Banks:
-<<<<<<< HEAD
-  - {fileID: 7577884801130374892}
-=======
-  - {fileID: -5287429593713041035}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 583
---- !u!114 &-437548345611617395
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637380456742121122
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3267277601808324036}
-<<<<<<< HEAD
-  - {fileID: -5470194963171471624}
-  - {fileID: 7577884801130374892}
-  - {fileID: 4991937935217644522}
-  - {fileID: -8865276736657636512}
-=======
-  - {fileID: 6765020291084987189}
-  - {fileID: -5287429593713041035}
-  - {fileID: -437548345611617395}
-  - {fileID: 7259701550451264763}
->>>>>>> main
-  EditorEvents:
-  - {fileID: -5664295053343878201}
-  - {fileID: 2686553466116226331}
-  - {fileID: 2994626429466179362}
-  - {fileID: 3786377702388968887}
-  - {fileID: -3017254382935917650}
-  - {fileID: 6961729894511668815}
-  - {fileID: -4473388312499813223}
-  - {fileID: -5396793151294062499}
-  EditorParameters: []
-  MasterBanks:
-<<<<<<< HEAD
-  - {fileID: 4991937935217644522}
-  StringsBanks:
-  - {fileID: 3267277601808324036}
-  stringsBankWriteTime: 637380166291846172
-=======
-  - {fileID: -437548345611617395}
-  StringsBanks:
-  - {fileID: 3267277601808324036}
-  stringsBankWriteTime: 637380456742101188
->>>>>>> main
-  cacheVersion: 3
---- !u!114 &118998932789734354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Child.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Child.bank
-  SubDir: 
-  lastModified: 637380241335314361
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &367846762213574524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Player.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Player.bank
-  SubDir: 
-  lastModified: 637380241335364352
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &2686553466116226331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ChildMonsterLaugh
-  m_EditorClassIdentifier: 
-  Path: event:/ChildMonsterLaugh
-  guid: 69495d95d65d964e9906cfd46b463b35
-  Banks:
-<<<<<<< HEAD
-  - {fileID: -5470194963171471624}
-=======
-  - {fileID: 6765020291084987189}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 4796
---- !u!114 &2994626429466179362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PickUpItem
-  m_EditorClassIdentifier: 
-  Path: event:/PickUpItem
-  guid: 323e71ae063d9d46855caa43ba809332
-  Banks:
-<<<<<<< HEAD
-  - {fileID: 7577884801130374892}
-=======
-  - {fileID: -5287429593713041035}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 190
---- !u!114 &3267277601808324036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.strings.bank
-  SubDir: 
-<<<<<<< HEAD
-  lastModified: 637380166291846172
-=======
-  lastModified: 637380456742101188
->>>>>>> main
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1218
-  Exists: 1
---- !u!114 &3786377702388968887
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Battery
-  m_EditorClassIdentifier: 
-  Path: event:/Battery
-  guid: 7d87c6b3245dbe4bbdfaa5dc60e152b0
-  Banks:
-<<<<<<< HEAD
-  - {fileID: 7577884801130374892}
-=======
-  - {fileID: -5287429593713041035}
->>>>>>> main
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1343
---- !u!114 &4991937935217644522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637380166291704063
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &5457874223972819603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../../GameJamFMOD/Build/Desktop/Master.strings.bank
-  SubDir: 
-  lastModified: 637380166291846172
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1218
-  Exists: 0
---- !u!114 &6115130649903582904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../GameJamFMOD/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637380166291704063
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &6765020291084987189
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Child.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Child.bank
-  SubDir: 
-  lastModified: 637380456742101188
-  LoadResult: 0
-  FileSizes: []
-  Exists: 1
---- !u!114 &6961729894511668815
+--- !u!114 &-5146926799757969605
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -494,11 +56,7 @@ MonoBehaviour:
   Path: event:/Musica Menu
   guid: 71732024141cec4795f4541569eba230
   Banks:
-<<<<<<< HEAD
-  - {fileID: 4991937935217644522}
-=======
-  - {fileID: -437548345611617395}
->>>>>>> main
+  - {fileID: -6871947673088948809}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -506,7 +64,53 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 30093
---- !u!114 &7250802193114896537
+--- !u!114 &-2795628363441439246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PickUpItem
+  m_EditorClassIdentifier: 
+  Path: event:/PickUpItem
+  guid: 323e71ae063d9d46855caa43ba809332
+  Banks:
+  - {fileID: 4484251772938933321}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 190
+--- !u!114 &-1643608493312602152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DoorLocked
+  m_EditorClassIdentifier: 
+  Path: event:/DoorLocked
+  guid: 8be6b884ea2cf846b3452cba43cee0d9
+  Banks:
+  - {fileID: 4484251772938933321}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 583
+--- !u!114 &-1193014230638349198
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,45 +120,115 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Level.bank
-  m_EditorClassIdentifier: 
-  Path: ../../GameJamFMOD/Build/Desktop/Level.bank
-  SubDir: 
-  lastModified: 637380166282549256
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
-<<<<<<< HEAD
---- !u!114 &7577884801130374892
-=======
---- !u!114 &7259701550451264763
->>>>>>> main
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-<<<<<<< HEAD
-  m_Name: bank:/Level.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Level.bank
-  SubDir: 
-  lastModified: 637380166282549256
-=======
   m_Name: bank:/Player.bank
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Player.bank
   SubDir: 
-  lastModified: 637380456742151037
->>>>>>> main
+  lastModified: 637380166292265022
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &8059811524402074085
+--- !u!114 &-173365705755934075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FootSteps
+  m_EditorClassIdentifier: 
+  Path: event:/FootSteps
+  guid: 37654d743efc2b4fac93cc9a60ccc0b7
+  Banks:
+  - {fileID: -1193014230638349198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 484
+--- !u!114 &-34586079556945998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Battery
+  m_EditorClassIdentifier: 
+  Path: event:/Battery
+  guid: 7d87c6b3245dbe4bbdfaa5dc60e152b0
+  Banks:
+  - {fileID: 4484251772938933321}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1343
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2344295171422087177}
+  - {fileID: 8347545594880227466}
+  - {fileID: 4484251772938933321}
+  - {fileID: -6871947673088948809}
+  - {fileID: -1193014230638349198}
+  EditorEvents:
+  - {fileID: -6319923635572402617}
+  - {fileID: 4663122861236195008}
+  - {fileID: -2795628363441439246}
+  - {fileID: -34586079556945998}
+  - {fileID: -1643608493312602152}
+  - {fileID: -5146926799757969605}
+  - {fileID: -173365705755934075}
+  - {fileID: 9192205345738064320}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -6871947673088948809}
+  StringsBanks:
+  - {fileID: 2344295171422087177}
+  stringsBankWriteTime: 637380166291846172
+  cacheVersion: 3
+--- !u!114 &2344295171422087177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637380166291846172
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1218
+  Exists: 1
+--- !u!114 &4484251772938933321
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -568,11 +242,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Level.bank
   SubDir: 
-  lastModified: 637380241335314361
+  lastModified: 637380166282549256
   LoadResult: 0
   FileSizes: []
-  Exists: 0
---- !u!114 &8588930150933840802
+  Exists: 1
+--- !u!114 &4663122861236195008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ChildMonsterLaugh
+  m_EditorClassIdentifier: 
+  Path: event:/ChildMonsterLaugh
+  guid: 69495d95d65d964e9906cfd46b463b35
+  Banks:
+  - {fileID: 8347545594880227466}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4796
+--- !u!114 &8347545594880227466
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -584,9 +281,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Child.bank
   m_EditorClassIdentifier: 
-  Path: ../../GameJamFMOD/Build/Desktop/Child.bank
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Child.bank
   SubDir: 
   lastModified: 637380166282170263
   LoadResult: 0
   FileSizes: []
-  Exists: 0
+  Exists: 1
+--- !u!114 &9192205345738064320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Flashlight
+  m_EditorClassIdentifier: 
+  Path: event:/Flashlight
+  guid: ce9d00965f0fb5458eb0c76a3113ac01
+  Banks:
+  - {fileID: -1193014230638349198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 718

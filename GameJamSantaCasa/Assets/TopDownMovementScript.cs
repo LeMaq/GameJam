@@ -5,6 +5,7 @@ using UnityEngine;
 public class TopDownMovementScript : MonoBehaviour
 {
 
+    public GameObject mover;
     public float speed = 0.05f;
     public GameObject Player;
     public bool left;
@@ -104,53 +105,53 @@ public class TopDownMovementScript : MonoBehaviour
         {
             up = false;
         }
-        //if (up && right && !left && !down)
-        //{
-        //    speed = 0.025f;
-        //    gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 45)));
-        //}
-        //if (right && down && !up && !left)
-        //{
-        //    speed = 0.025f;
-        //    gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 315)));
+        if (up && right && !left && !down)
+        {
+            speed = 0.025f;
+            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 45)));
+        }
+        if (right && down && !up && !left)
+        {
+            speed = 0.025f;
+            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 315)));
 
-        //}
-        //if (down && left && !right && !up)
-        //{
-        //    speed = 0.025f;
-        //    gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 225)));
-        //    Debug.LogWarning("vai");
+        }
+        if (down && left && !right && !up)
+        {
+            speed = 0.025f;
+            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 225)));
+            Debug.LogWarning("vai");
 
-        //}
-        //if (left && up && !right && !down)
-        //{
-        //    speed = 0.025f;
-        //    gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 135)));
+        }
+        if (left && up && !right && !down)
+        {
+            speed = 0.025f;
+            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 135)));
 
-        //}
+        }
 
 
-        //asdhiasdg
+        
         if (up && !right && !left && !down)
         {
 
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 90)));
+            mover.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 90)));
         }
         if (!up && right && !left && !down)
         {
-            //gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
+            mover.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
 
         }
         if (!up && !right && left && !down)
         {
-            // gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 180)));
+             mover.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 180)));
 
 
 
         }
         if (!up && !right && !left && down)
         {
-            // gameObject.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 270)));
+             mover.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(new Vector3(0, 0, 270)));
 
         }
 
