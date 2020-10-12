@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/tela3.unity
-=======
-<<<<<<< HEAD
-- path: Assets/Scenes/Teste.unity
-=======
-- path: Assets/Scenes/SandBox.unity
->>>>>>> main
->>>>>>> main
+- path: Assets/Scenes/NovoMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
