@@ -17,7 +17,7 @@ MonoBehaviour:
   lastModified: 637380241335354369
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7606689326914981627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   Path: event:/ChildFootsteps
   guid: 107180b6d569324e89ce76d3ec012def
   Banks:
-  - {fileID: 118998932789734354}
+  - {fileID: 6765020291084987189}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -74,7 +74,7 @@ MonoBehaviour:
   Path: event:/Flashlight
   guid: ce9d00965f0fb5458eb0c76a3113ac01
   Banks:
-  - {fileID: 367846762213574524}
+  - {fileID: 7259701550451264763}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -82,6 +82,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 718
+--- !u!114 &-5287429593713041035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Level.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Level.bank
+  SubDir: 
+  lastModified: 637380456742091211
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-4473388312499813223
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,7 +115,7 @@ MonoBehaviour:
   Path: event:/FootSteps
   guid: 37654d743efc2b4fac93cc9a60ccc0b7
   Banks:
-  - {fileID: 367846762213574524}
+  - {fileID: 7259701550451264763}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -120,7 +138,7 @@ MonoBehaviour:
   Path: event:/DoorLocked
   guid: 8be6b884ea2cf846b3452cba43cee0d9
   Banks:
-  - {fileID: 8059811524402074085}
+  - {fileID: -5287429593713041035}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -128,6 +146,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 583
+--- !u!114 &-437548345611617395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637380456742121122
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,10 +178,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 3267277601808324036}
-  - {fileID: 118998932789734354}
-  - {fileID: 8059811524402074085}
-  - {fileID: -8129310978660990450}
-  - {fileID: 367846762213574524}
+  - {fileID: 6765020291084987189}
+  - {fileID: -5287429593713041035}
+  - {fileID: -437548345611617395}
+  - {fileID: 7259701550451264763}
   EditorEvents:
   - {fileID: -5664295053343878201}
   - {fileID: 2686553466116226331}
@@ -157,10 +193,10 @@ MonoBehaviour:
   - {fileID: -5396793151294062499}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8129310978660990450}
+  - {fileID: -437548345611617395}
   StringsBanks:
   - {fileID: 3267277601808324036}
-  stringsBankWriteTime: 637380241335334378
+  stringsBankWriteTime: 637380456742101188
   cacheVersion: 3
 --- !u!114 &118998932789734354
 MonoBehaviour:
@@ -179,7 +215,7 @@ MonoBehaviour:
   lastModified: 637380241335314361
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &367846762213574524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +233,7 @@ MonoBehaviour:
   lastModified: 637380241335364352
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &2686553466116226331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,7 +249,7 @@ MonoBehaviour:
   Path: event:/ChildMonsterLaugh
   guid: 69495d95d65d964e9906cfd46b463b35
   Banks:
-  - {fileID: 118998932789734354}
+  - {fileID: 6765020291084987189}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -236,7 +272,7 @@ MonoBehaviour:
   Path: event:/PickUpItem
   guid: 323e71ae063d9d46855caa43ba809332
   Banks:
-  - {fileID: 8059811524402074085}
+  - {fileID: -5287429593713041035}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -258,7 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637380241335334378
+  lastModified: 637380456742101188
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -279,7 +315,7 @@ MonoBehaviour:
   Path: event:/Battery
   guid: 7d87c6b3245dbe4bbdfaa5dc60e152b0
   Banks:
-  - {fileID: 8059811524402074085}
+  - {fileID: -5287429593713041035}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -325,6 +361,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6765020291084987189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Child.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Child.bank
+  SubDir: 
+  lastModified: 637380456742101188
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6961729894511668815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +394,7 @@ MonoBehaviour:
   Path: event:/Musica Menu
   guid: 71732024141cec4795f4541569eba230
   Banks:
-  - {fileID: -8129310978660990450}
+  - {fileID: -437548345611617395}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -366,6 +420,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7259701550451264763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD/GameJamFMOD/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637380456742151037
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8059811524402074085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,7 +455,7 @@ MonoBehaviour:
   lastModified: 637380241335314361
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8588930150933840802
 MonoBehaviour:
   m_ObjectHideFlags: 0
