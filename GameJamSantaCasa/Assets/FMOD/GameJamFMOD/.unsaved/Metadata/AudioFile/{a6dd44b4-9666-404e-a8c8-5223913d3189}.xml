@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a6dd44b4-9666-404e-a8c8-5223913d3189}">
+		<property name="assetPath">
+			<value>RisoBrena.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.1818125000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55f13c73-feb8-4e54-a233-309851ade244}</destination>
+		</relationship>
+	</object>
+</objects>

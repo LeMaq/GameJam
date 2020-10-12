@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{8edac50e-8a05-42f1-a40b-890a6e130336}">
+		<property name="assetPath">
+			<value>Ghost Gabriel Mixagem 1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8695208333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{55f13c73-feb8-4e54-a233-309851ade244}</destination>
+		</relationship>
+	</object>
+</objects>
